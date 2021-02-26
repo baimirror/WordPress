@@ -1,0 +1,13 @@
+org: '1251811357'
+app: testwd
+stage: dev
+component: wordpress
+name: wordpress-5T3oxc56l
+inputs:
+  src:
+    src: ./
+    exclude:
+      - .env
+  region: ap-guangzhou
+  zone: ap-guangzhou-4
+  isAutoCiDeploy: false
